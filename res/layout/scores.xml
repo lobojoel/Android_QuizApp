@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:id="@+id/scrollView1"
+	android:layout_height="wrap_content">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/summarylabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Congratulations !!!!!"/>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/userlabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/summarylabel"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/scorelabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:text=" Your Score is"
+        android:layout_below="@id/userlabel"/>
+       
+        		<TextView android:textAppearance="?android:attr/textAppearanceLarge"
+				android:id="@+id/score" android:layout_height="wrap_content"
+				 android:layout_width="wrap_content"
+				 android:layout_below="@id/scorelabel"/>
+				  <TextView android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/ranklabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:text=" Rank :"
+        android:layout_below="@id/score"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/rank"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ranklabel"/>
+			<Button android:text="Quit" android:id="@+id/quitApp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			 android:layout_below="@id/rank"></Button>
+	</RelativeLayout>	
+	</ScrollView>
