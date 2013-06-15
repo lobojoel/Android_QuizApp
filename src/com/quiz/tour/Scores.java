@@ -76,27 +76,5 @@ public class Scores extends Activity implements OnClickListener{
 			startActivity(i);
 			finish();
 		
-		
-		/* Intent i = new Intent(Scores.this,
-				Menu.class);
-		bundle =new Bundle();
-		bundle.putString("username", name);
-		i.putExtras(bundle);
-		startActivity(i);
-		finish(); */
 	}
-	
-	/*
-	public OnClickListener cancel_button_click_listener = new OnClickListener() {
-	    public void onClick(View v) {
-	    	
-	    	
-	      //  pw.dismiss();
-	        Intent i=new Intent(Scores.this, Menu.class);
-			//i.putExtras(bundle);
-			startActivity(i);
-			finish();
-	    }
-	};
-	*/
 }
